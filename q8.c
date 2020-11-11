@@ -8,7 +8,7 @@ int main(){
 
     char string[141];
 
-    printf("Enter a text which you would check it's length\n");
+    printf("Digite um texto para saber seu tamanho em caracteres:\n");
     scanf(" %140[^\n]", string);
 
     int i = 0;
@@ -19,5 +19,4 @@ int main(){
     
     
     printf("\n\n'%s' tem %d caracteres\n", string, i);
-
 }
