@@ -29,7 +29,7 @@ int length(char * s){
 }
 
 int main(){
-    char string[] = "SOG";
+    char string[] = "Engenharia Eletrica";
     int len = length(string) -1;
 
     printf("%s\n", string);
@@ -37,5 +37,4 @@ int main(){
     reverse(string, 0, len);
 
     printf("%s\n", string);
-
 }
