@@ -24,4 +24,7 @@ int main(){
     scanf(" %d", &input);
 
     printf("O %d termo da série Fibonacci: %d.\n", input, fibonacci(input));
+
+    printf("-> Info: O vigesimo termo da serie Fibonacci tem o valor de %d", fibonacci(20));
 }
+
